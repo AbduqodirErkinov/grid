@@ -1,0 +1,27 @@
+.main{
+    width: 400px;
+    background: blue;
+    display: grid;
+    border: 3px solid red;
+    grid-template-columns: 100px 100px 100px 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.gridItem{
+    background: rgb(1, 255, 137);
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
